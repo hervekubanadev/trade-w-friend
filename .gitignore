@@ -32,6 +32,14 @@ migrate_working_dir/
 .pub/
 /build/
 /coverage/
+.env
+.packages
+.flutter-plugins
+*.apk
+*.aab
+*.jks
+*.keystore
+local.properties
 
 # Symbolication related
 app.*.symbols

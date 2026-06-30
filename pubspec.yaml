@@ -1,10 +1,11 @@
 name: jewelry_ledger
-description: "Kiosk business management system - full-screen, PIN-protected kiosk app."
+description: "TradeWFriend — Offline-first kiosk POS for African retail with PIN auth, inventory, sales tracking, and debt management."
 publish_to: 'none'
 version: 1.0.0+1
 
 environment:
   sdk: ^3.12.1
+  flutter: ^3.27.0
 
 dependencies:
   flutter:
@@ -15,9 +16,7 @@ dependencies:
   go_router: ^14.7.3
   google_fonts: ^6.2.1
   intl: ^0.20.2
-  flutter_svg: ^2.0.17
   lucide_icons_flutter: ^3.1.14+2
-  google_nav_bar: ^5.0.6
   fl_chart: ^0.70.2
   crypto: ^3.0.7
   shared_preferences: ^2.5.3
